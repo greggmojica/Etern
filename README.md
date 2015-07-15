@@ -11,7 +11,7 @@ Eternal uses UIKitDynamics and makes use of a custom class, GMTray.
 `#import "GMTray.h"` will do the trick.
 
 ## Usage
-GMPush is incredible easy to use.  Take the most basic example of sending a push Notification:
+  GMPush is incredible easy to use.  Take the most basic example of sending a push Notification:
 
   GMTray *tray = [[GMTray alloc]init];
     tray.view.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
