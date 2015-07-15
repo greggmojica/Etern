@@ -14,6 +14,7 @@
 		579B92BF1B56AEBC00D507AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579B92BE1B56AEBC00D507AA /* Images.xcassets */; };
 		579B92C21B56AEBC00D507AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579B92C01B56AEBC00D507AA /* LaunchScreen.xib */; };
 		579B92CE1B56AEBC00D507AA /* EternalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 579B92CD1B56AEBC00D507AA /* EternalTests.m */; };
+		579B92D91B56AED200D507AA /* GMTray.m in Sources */ = {isa = PBXBuildFile; fileRef = 579B92D81B56AED200D507AA /* GMTray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		579B92C71B56AEBC00D507AA /* EternalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EternalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		579B92CC1B56AEBC00D507AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		579B92CD1B56AEBC00D507AA /* EternalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EternalTests.m; sourceTree = "<group>"; };
+		579B92D71B56AED200D507AA /* GMTray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMTray.h; sourceTree = "<group>"; };
+		579B92D81B56AED200D507AA /* GMTray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMTray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		579B92B01B56AEBC00D507AA /* Eternal */ = {
 			isa = PBXGroup;
 			children = (
+				579B92D71B56AED200D507AA /* GMTray.h */,
+				579B92D81B56AED200D507AA /* GMTray.m */,
 				579B92B51B56AEBC00D507AA /* AppDelegate.h */,
 				579B92B61B56AEBC00D507AA /* AppDelegate.m */,
 				579B92B81B56AEBC00D507AA /* ViewController.h */,
@@ -222,6 +227,7 @@
 				579B92BA1B56AEBC00D507AA /* ViewController.m in Sources */,
 				579B92B71B56AEBC00D507AA /* AppDelegate.m in Sources */,
 				579B92B41B56AEBC00D507AA /* main.m in Sources */,
+				579B92D91B56AED200D507AA /* GMTray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
